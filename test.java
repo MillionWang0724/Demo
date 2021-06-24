@@ -13,13 +13,5 @@ public class Test {
         if(true){
             System.out.println("Hello huami!");
         }
-        
-        if(true){
-            System.out.println("Hello huami!");
-        }
-        
-        if(true){
-            System.out.println("Hello huami!");
-        }
     }
 }
