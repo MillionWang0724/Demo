@@ -18,12 +18,12 @@ public class LogInfo implements Serializable {
     /**
      * 服务名称
      */
-    private String serviceName;
+    private String serviceName1;
 
     /**
      * 服务
      */
-    private String service;
+    private String servica;
 
     /**
      * 单位字节
