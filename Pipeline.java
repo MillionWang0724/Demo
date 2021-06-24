@@ -10,11 +10,6 @@ import lombok.Data;
 @Data
 public class Pipeline implements Serializable {
     /**
-     * pipeline的id 主键
-     */
-    private Integer pipelineId;
-
-    /**
      * gitlab项目id
      */
     private Integer projectId;
@@ -23,11 +18,6 @@ public class Pipeline implements Serializable {
      * gitlab merge request id
      */
     private Integer mergeIid;
-
-    /**
-     * gitlab 项目名称
-     */
-    private String projectName;
 
     /**
      * pipeline 执行状态，success failed cancel等
