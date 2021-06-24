@@ -10,5 +10,8 @@ public class Test {
     public static void BubbleSortFloat2(float[] num) {
         int a = 1;
         int b = a + 2;
+        if(true){
+            System.out.println("Hello huami!");
+        }
     }
 }
